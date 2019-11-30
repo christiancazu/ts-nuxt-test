@@ -19,7 +19,10 @@
     "element-ui": "^2.13.0",
     "nuxt": "latest",
     "vue-class-component": "^7.1.0",
-    "vue-property-decorator": "^8.3.0"
+    "vue-property-decorator": "^8.3.0",
+    "vuex-class": "^0.3.2",
+    "vuex-class-component": "^2.2.1",
+    "vuex-module-decorators": "^0.11.0"
   },
   "devDependencies": {
     "@nuxt/typescript-build": "latest",

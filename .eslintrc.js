@@ -10,16 +10,17 @@ module.exports = {
     ecmaFeatures: {
       legacyDecorators: true
     }
+    // ecmaVersion: 2018,
+    // sourceType: 'module'
   },
   extends: [
     '@nuxtjs',
-    'prettier',
-    'prettier/vue',
-    'plugin:prettier/recommended',
     'plugin:nuxt/recommended',
     '@nuxtjs/eslint-config-typescript'
   ],
   plugins: ['prettier'],
   // add your custom rules here
-  rules: {}
+  rules: {
+    'no-console': 0
+  }
 }
